@@ -30,6 +30,31 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBPwX4ZuyRQRIc8UfQZnn301tCI43chLQI",
+      authDomain: "famlicious-74304.firebaseapp.com",
+      projectId: "famlicious-74304",
+      storageBucket: "famlicious-74304.appspot.com",
+      messagingSenderId: "555668421343",
+      appId: "1:555668421343:web:d17342642366739f7e076a",
+      measurementId: "G-FNWNZGN337"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
@@ -97,5 +122,7 @@
       loadMainDartJs();
     }
   </script>
+  
+
 </body>
 </html>

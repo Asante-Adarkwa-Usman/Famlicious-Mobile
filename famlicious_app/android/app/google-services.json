@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "555668421343",
+    "project_id": "famlicious-74304",
+    "storage_bucket": "famlicious-74304.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555668421343:android:4d948e43ef5c2cde7e076a",
+        "android_client_info": {
+          "package_name": "com.example.famlicious_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555668421343-7gglo0sjf2bt3q1r87971jqjkmhf8ces.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.famlicious_app",
+            "certificate_hash": "d2e63ed5869aecb6a45d1de1e02ecc1944d91ccb"
+          }
+        },
+        {
+          "client_id": "555668421343-g0rv4ap1qd088vf8qf27ou7pr50entn5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHHihxR7Qw4ApoiOVpirYj5eSakQ0II5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555668421343-g0rv4ap1qd088vf8qf27ou7pr50entn5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

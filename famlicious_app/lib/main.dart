@@ -65,7 +65,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       themeMode: ThemeMode.system,
-      home:  CreateAccountView(),
+      home: const CreateAccountView(),
     );
   }
 }

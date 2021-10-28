@@ -28,6 +28,7 @@ class _LoginViewState extends State<LoginView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: SafeArea(
           child: Form(
         key: _formKey,
@@ -151,7 +152,7 @@ class _LoginViewState extends State<LoginView> {
                                 .colorScheme!
                                 .primary))),
             Align(
-                alignment: Alignment.center,
+                alignment: Alignment.centerRight,
                 child: TextButton(
                     onPressed: () => Navigator.of(context).push(
                         MaterialPageRoute(

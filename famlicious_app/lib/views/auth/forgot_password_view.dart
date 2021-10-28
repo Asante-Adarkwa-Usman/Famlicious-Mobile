@@ -32,6 +32,14 @@ class _ForgotPasswordViewState extends State<ForgotPasswordView> {
           const SizedBox(
             height: 35,
           ),
+          Text(
+            'Kindly check your email for the password reset link after submitting your email address',
+            textAlign: TextAlign.center,
+            style: Theme.of(context).textTheme.bodyText2,
+          ),
+          const SizedBox(
+            height: 20,
+          ),
           TextFormField(
             controller: _emailController,
             keyboardType: TextInputType.emailAddress,
